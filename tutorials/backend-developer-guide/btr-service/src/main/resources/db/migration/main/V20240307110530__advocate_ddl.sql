@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS eg_advocate (
+    id UUID PRIMARY KEY,
+    name VARCHAR(256) NOT NULL,
+    status VARCHAR(64) NOT NULL,
+    tenantid VARCHAR(64) NOT NULL
+);

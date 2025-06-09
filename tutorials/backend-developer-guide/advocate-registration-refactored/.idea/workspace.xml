@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6edc7116-19f8-42eb-9162-11265cff5a6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../advocate-registration/configs/adv-persister.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advocate-registration/src/main/resources/advocate-persister.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/repository/AdvocateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/repository/querybuilder/AdvocateQueryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/repository/rowmapper/AdvocateRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/AdvocateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/controllers/AdvocateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/models/Advocate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/models/AdvocateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/models/AdvocateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/models/AdvocateSearchCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/resources/adv-persister.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btr-service/src/main/resources/db/migration/main/V20240307110530__advocate_ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/egov-idgen/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/egov-idgen/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/egov-idgen/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/egov-idgen/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/egov-mdms-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/egov-mdms-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/egov-persister/src/main/java/org/egov/infra/persist/consumer/PersisterMessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/egov-persister/src/main/java/org/egov/infra/persist/consumer/PersisterMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/egov-persister/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/egov-persister/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/java/org/egov/infra/mdms/controller/MDMSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/java/org/egov/infra/mdms/controller/MDMSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/resources/mdms-persister.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../core-services/mdms-v2/src/main/resources/mdms-persister.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/config/BTRConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/config/BTRConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/enrichment/BirthApplicationEnrichment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/enrichment/BirthApplicationEnrichment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/BirthRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/BirthRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/WorkflowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/service/WorkflowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/IdgenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/IdgenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/MdmsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/MdmsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/UrlShortenerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/UrlShortenerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/WorkflowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/util/WorkflowUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/controllers/BirthApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/java/digit/web/controllers/BirthApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btr-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../btr-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mandar-Beehyv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/egovernments/Digit-Core.git",
+    "accountId": "c0a63ad3-fd0d-4ffd-ba37-ec93acfa1c2b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2y8RDapE0xwliMgMHasodFy06Mo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#754 on master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6edc7116-19f8-42eb-9162-11265cff5a6f" name="Changes" comment="" />
+      <created>1749214094350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749214094350</updated>
+    </task>
+    <servers />
+  </component>
+</project>
