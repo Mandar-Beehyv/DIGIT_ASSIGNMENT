@@ -1,0 +1,46 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: advocate-service
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: advocate-group
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      session-timeout-ms: 60000
+      heartbeat-interval-ms: 20000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/advocate_registration
+    username: beehyv
+    password: beehyv123
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/advocate_registration
+    user: beehyv
+    password: beehyv123
+    baseline-on-migrate: true
+    out-of-order: true
+    enabled: true
+    locations: classpath:/db/migration/main
+
+persister:
+  url: http://egov-persister.egov.svc.cluster.local:8080/persister/v1/_create
+
+
+kafka:
+  topics:
+    advocate-save: save-advocate-application
+    advocate-update: update-advocate-application
